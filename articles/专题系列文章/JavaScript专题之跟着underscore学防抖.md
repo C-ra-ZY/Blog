@@ -51,7 +51,7 @@ container.onmousemove = getUserAction;
 
 我们来看看效果：
 
-![debounce](https://github.com/mqyqingfeng/Blog/raw/master/Images/debounce/debounce.gif)
+![debounce](../../Images/debounce/debounce.gif)
 
 从左边滑到右边就触发了 165 次 getUserAction 函数！
 
@@ -95,7 +95,7 @@ container.onmousemove = debounce(getUserAction, 1000);
 
 现在随你怎么移动，反正你移动完 1000ms 内不再触发，我才执行事件。看看使用效果：
 
-![debounce 第一版](https://github.com/mqyqingfeng/Blog/raw/master/Images/debounce/debounce-1.gif)
+![debounce 第一版](../../Images/debounce/debounce-1.gif)
 
 顿时就从 165 次降低成了 1 次!
 
@@ -146,7 +146,7 @@ function getUserAction(e) {
 
 如果我们不使用 debouce 函数，这里会打印 MouseEvent 对象，如图所示：
 
-![MouseEvent](https://github.com/mqyqingfeng/Blog/raw/master/Images/debounce/event.png)
+![MouseEvent](../../Images/debounce/event.png)
 
 但是在我们实现的 debounce 函数中，却只会打印 undefined!
 
@@ -214,7 +214,7 @@ function debounce(func, wait, immediate) {
 
 再来看看使用效果：
 
-![debounce 第四版](https://github.com/mqyqingfeng/Blog/raw/master/Images/debounce/debounce-4.gif)
+![debounce 第四版](../../Images/debounce/debounce-4.gif)
 
 ## 返回值
 

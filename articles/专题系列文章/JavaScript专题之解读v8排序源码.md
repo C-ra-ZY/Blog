@@ -16,7 +16,7 @@ v8 是 Chrome 的 JavaScript 引擎，其中关于数组的排序完全采用了
 
 ### 图示
 
-![插入排序](https://github.com/mqyqingfeng/Blog/raw/master/Images/sort/insertion.gif)
+![插入排序](../../Images/sort/insertion.gif)
 
 ### 实现
 
@@ -80,15 +80,15 @@ console.log(insertionSort(arr));
 
 第一步，选择中间的元素 45 作为"基准"。（基准值可以任意选择，但是选择中间的值比较容易理解。）
 
-![quick 第一步](https://github.com/mqyqingfeng/Blog/raw/master/Images/sort/quick1.png)
+![quick 第一步](../../Images/sort/quick1.png)
 
 第二步，按照顺序，将每个元素与"基准"进行比较，形成两个子集，一个"小于45"，另一个"大于等于45"。
 
-![quick 第二步](https://github.com/mqyqingfeng/Blog/raw/master/Images/sort/quick2.png)
+![quick 第二步](../../Images/sort/quick2.png)
 
 第三步，对两个子集不断重复第一步和第二步，直到所有子集只剩下一个元素为止。
 
-![quick 第三步](https://github.com/mqyqingfeng/Blog/raw/master/Images/sort/quick3.png)
+![quick 第三步](../../Images/sort/quick3.png)
 
 ### 实现
 
@@ -119,7 +119,7 @@ var quickSort = function(arr) {
 
 我们来看看原地排序的实现图示：
 
-![快速排序](https://github.com/mqyqingfeng/Blog/raw/master/Images/sort/quicksort.gif)
+![快速排序](../../Images/sort/quicksort.gif)
 
 为了让大家看明白快速排序的原理，我调慢了执行速度。
 
@@ -466,7 +466,7 @@ console.log(high_start)
 
 最后来张示意图感受下插入排序和快速排序：
 
-![插入排序和快速排序](https://github.com/mqyqingfeng/Blog/raw/master/Images/sort/insertion-vs-quick.gif)
+![插入排序和快速排序](../../Images/sort/insertion-vs-quick.gif)
 
 图片来自于 [https://www.toptal.com/developers/sorting-algorithms](https://www.toptal.com/developers/sorting-algorithms)
 

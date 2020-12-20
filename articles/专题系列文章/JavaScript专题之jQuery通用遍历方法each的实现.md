@@ -206,7 +206,7 @@ console.timeEnd('each')
 
 这里显示一次运算的结果：
 
-![性能比较](https://github.com/mqyqingfeng/Blog/raw/master/Images/each/each1.png)
+![性能比较](../../Images/each/each1.png)
 
 从上图可以看出，for 循环的性能是明显好于 each 函数的，each 函数本质上也是用的 for 循环，到底是慢在了哪里呢？
 
@@ -249,7 +249,7 @@ console.timeEnd('eachWithCall')
 
 这里显示一次运算的结果：
 
-![性能比较](https://github.com/mqyqingfeng/Blog/raw/master/Images/each/each2.png)
+![性能比较](../../Images/each/each2.png)
 
 each 函数和 eachWithCall 函数唯一的区别就是 eachWithCall 调用了 call，从结果我们可以推测出，call 会导致性能损失，但也正是 call 的存在，我们才能将 this 指向循环中当前的元素。
 

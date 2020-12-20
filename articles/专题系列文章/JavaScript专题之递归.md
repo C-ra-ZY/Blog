@@ -19,7 +19,7 @@ console.log(factorial(5)) // 5 * 4 * 3 * 2 * 1 = 120
 
 示意图(图片来自 [wwww.penjee.com](wwww.penjee.com))：
 
-![阶乘](https://github.com/mqyqingfeng/Blog/raw/master/Images/recursion/factorial.gif)
+![阶乘](../../Images/recursion/factorial.gif)
 
 ## 斐波那契数列
 

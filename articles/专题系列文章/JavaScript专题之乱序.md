@@ -92,7 +92,7 @@ function InsertionSort(a, from, to) {
 
 我们来个简单的示意图：
 
-![插入排序](https://github.com/mqyqingfeng/Blog/raw/master/Images/sort/insertion.gif)
+![插入排序](../../Images/sort/insertion.gif)
 
 ## 具体分析
 
@@ -185,7 +185,7 @@ console.log(res)
 
 这是一次随机的结果：
 
-![Math random 效果演示](https://github.com/mqyqingfeng/Blog/raw/master/Images/shuffle/mathRandom.png)
+![Math random 效果演示](../../Images/shuffle/mathRandom.png)
 
 我们会发现，乱序后，`3` 还在原位置(即 [1, 2, 3] 和 [2, 1, 3]) 的概率有 50% 呢。
 
@@ -249,7 +249,7 @@ console.log(res)
 
 这是一次随机的结果：
 
-![Fisher–Yates 效果演示](https://github.com/mqyqingfeng/Blog/raw/master/Images/shuffle/fisher-yates.png)
+![Fisher–Yates 效果演示](../../Images/shuffle/fisher-yates.png)
 
 真正的实现了乱序的效果！
 
